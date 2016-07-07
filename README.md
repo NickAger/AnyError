@@ -1,6 +1,6 @@
 # AnyError
 
-[![CI Status](http://img.shields.io/travis/Nick Ager/AnyError.svg?style=flat)](https://travis-ci.org/Nick Ager/AnyError)
+[![CI Status](http://img.shields.io/travis/NickAger/AnyError.svg?style=flat)](https://travis-ci.org/Nick Ager/AnyError)
 [![Version](https://img.shields.io/cocoapods/v/AnyError.svg?style=flat)](http://cocoapods.org/pods/AnyError)
 [![License](https://img.shields.io/cocoapods/l/AnyError.svg?style=flat)](http://cocoapods.org/pods/AnyError)
 [![Platform](https://img.shields.io/cocoapods/p/AnyError.svg?style=flat)](http://cocoapods.org/pods/AnyError)
