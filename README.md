@@ -7,9 +7,9 @@
 
 Swift µframework providing `AnyError(cause:ErrorType)`
 
-Type erasure for ErrorType(s). Designed to be used as the error type associated with a Future or Result - so that when composing futures with map/flatMap the error type is the same and can be propagated through the compositional chain.
+Type erasure for ErrorType(s). Designed to be used as the error type associated with a [`Future`](https://github.com/Thomvis/BrightFutures) or [`Result`](https://github.com/antitypical/Result) - so that when composing futures with map/flatMap the error type is the same and can be propagated through the compositional chain.
 
-* See [Type erasure with AnyError](http://nickager.com/blog/2016/03/07/AnyError)
+* See [Type erasure with AnyError](http://nickager.com/blog/2016/03/07/AnyError) for further details.
 
 ## Installation
 
