@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AnyError'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Swift µframework - `AnyError(cause:ErrorType)` - providing type erasure for ErrorType(s)'
 
   s.description      = <<-DESC
