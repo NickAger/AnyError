@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'Swift µframework - `AnyError(cause:ErrorType)` - providing type erasure for ErrorType(s)'
 
   s.description      = <<-DESC
-Swift µframework - `AnyError(cause:ErrorType)` - providing type erasure for ErrorType(s). Designed to be used as the error type associated with a Future or Result - so that when composing futures with map/flatMap the error type is the same and can be propagated through the compositional chain.
+Swift µframework - `AnyError(cause:ErrorType)` - providing type erasure for ErrorType(s). Originally designed to be used as the error type associated with a Future or Result - so that when composing futures with map/flatMap the error type is the same and can be propagated through the compositional chain.
                        DESC
 
   s.homepage         = 'http://nickager.com/blog/2016/03/07/AnyError'
