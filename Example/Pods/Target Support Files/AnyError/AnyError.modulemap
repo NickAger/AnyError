@@ -1,0 +1,6 @@
+framework module AnyError {
+  umbrella header "AnyError-umbrella.h"
+
+  export *
+  module * { export * }
+}

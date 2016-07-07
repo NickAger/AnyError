@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AnyError_Tests' do
+  pod 'AnyError', :path => '../'
+  
+  
+end

@@ -1,0 +1,16 @@
+PODS:
+  - AnyError (0.1.0)
+
+DEPENDENCIES:
+  - AnyError (from `../`)
+
+EXTERNAL SOURCES:
+  AnyError:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnyError: 22ce65ff8fbbb4c5a948c0943d0c4199123dc287
+
+PODFILE CHECKSUM: 4e33c178a9c9e153afda57eb77024fc07b4a7125
+
+COCOAPODS: 1.0.1
