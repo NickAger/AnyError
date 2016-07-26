@@ -33,7 +33,7 @@ public struct AnyError : ErrorType {
  - [Type erasure with AnyError](http://nickager.com/blog/2016/03/07/AnyError)
  */
 public protocol AnyErrorConverter : ErrorType {
-    func asAnyError() -> AnyError;
+    func asAnyError() -> AnyError
 }
 
 public extension AnyErrorConverter {
