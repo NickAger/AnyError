@@ -32,8 +32,10 @@ public struct AnyError : Error {
  See also:
  - [Type erasure with AnyError](http://nickager.com/blog/2016/03/07/AnyError)
  */
+
 public protocol AnyErrorConverter : Error {
-    func asAnyError() -> AnyError;
+    func asAnyError() -> AnyError
+
 }
 
 public extension AnyErrorConverter {
