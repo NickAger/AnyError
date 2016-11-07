@@ -3,11 +3,11 @@ import XCTest
 import AnyError
 
 
-enum ExampleError: ErrorType {
-    case NoPayloadError
-    case GeneralError(String)
-    case AccessingResourceError(NSURL)
-    case Underlying(ErrorType)
+enum ExampleError: Error {
+    case noPayloadError
+    case generalError(String)
+    case accessingResourceError(URL)
+    case underlying(Error)
 }
 
 class Tests: XCTestCase {
@@ -23,9 +23,9 @@ class Tests: XCTestCase {
     }
     
     func testAnyError() {
-        let error = ExampleError.GeneralError("Here is a specific type of error")
+        let error = ExampleError.generalError("Here is a specific type of error")
         let typeErasedError = AnyError(cause: error)
 
-        XCTAssertEqual(String(typeErasedError.cause), String(error))
+        XCTAssertEqual(String(describing: typeErasedError.cause), String(describing: error))
     }
 }

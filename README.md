@@ -4,8 +4,9 @@
 [![Version](https://img.shields.io/cocoapods/v/AnyError.svg?style=flat)](http://cocoapods.org/pods/AnyError)
 [![License](https://img.shields.io/cocoapods/l/AnyError.svg?style=flat)](http://cocoapods.org/pods/AnyError)
 [![Platform](https://img.shields.io/cocoapods/p/AnyError.svg?style=flat)](http://cocoapods.org/pods/AnyError)
+[![Swift][swift-badge]][swift-url]
 
-Swift µframework - `AnyError(cause:ErrorType)` - providing type erasure for ErrorType(s). 
+Swift µframework - `AnyError(cause:ErrorType)` - providing type erasure for ErrorType(s).
 
 Originally designed to be used as the error type associated with a [`Future`](https://github.com/Thomvis/BrightFutures) or [`Result`](https://github.com/antitypical/Result) - so that when composing futures with map/flatMap the error type is the same and can be propagated through the compositional chain.
 
@@ -27,3 +28,6 @@ Nick Ager, nick.ager@gmail.com
 ## License
 
 AnyError is available under the MIT license. See the LICENSE file for more info.
+
+[swift-badge]: https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat
+[swift-url]: https://swift.org

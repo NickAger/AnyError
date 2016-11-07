@@ -18,10 +18,10 @@ import Foundation
  See also:
  - [Type erasure with AnyError](http://nickager.com/blog/2016/03/07/AnyError)
  */
-public struct AnyError : ErrorType {
-    public let cause:ErrorType
+public struct AnyError : Error {
+    public let cause:Error
     
-    public init(cause:ErrorType) {
+    public init(cause:Error) {
         self.cause = cause
     }
 }
@@ -32,7 +32,7 @@ public struct AnyError : ErrorType {
  See also:
  - [Type erasure with AnyError](http://nickager.com/blog/2016/03/07/AnyError)
  */
-public protocol AnyErrorConverter : ErrorType {
+public protocol AnyErrorConverter : Error {
     func asAnyError() -> AnyError;
 }
 
