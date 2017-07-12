@@ -6,6 +6,8 @@
 [![Platform](https://img.shields.io/cocoapods/p/AnyError.svg?style=flat)](http://cocoapods.org/pods/AnyError)
 [![Swift][swift-badge]][swift-url]
 
+Note: You might prefer to use [Result\AnyError](https://github.com/antitypical/Result/blob/master/Result/AnyError.swift) (when this version of `AnyError` was created [Result\AnyError](https://github.com/antitypical/Result/blob/master/Result/AnyError.swift) didn't exist), especially as many projects using `AnyError` will have already added in `Result` as a dependancy.
+
 Swift µframework - `AnyError(cause:ErrorType)` - providing type erasure for ErrorType(s).
 
 Originally designed to be used as the error type associated with a [`Future`](https://github.com/Thomvis/BrightFutures) or [`Result`](https://github.com/antitypical/Result) - so that when composing futures with map/flatMap the error type is the same and can be propagated through the compositional chain.
