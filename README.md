@@ -1,4 +1,4 @@
-# AnyError
+# `AnyError` - type erasure for `Error` types
 
 [![CI Status](http://img.shields.io/travis/NickAger/AnyError.svg?style=flat)](https://travis-ci.org/NickAger/AnyError)
 [![Version](https://img.shields.io/cocoapods/v/AnyError.svg?style=flat)](http://cocoapods.org/pods/AnyError)
