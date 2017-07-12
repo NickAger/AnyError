@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AnyError'
-  s.version          = '2.0.0'
+  s.version          = '2.0.1'
   s.summary          = 'Swift µframework - `AnyError(cause:ErrorType)` - providing type erasure for ErrorType(s)'
 
   s.description      = <<-DESC
@@ -13,7 +13,8 @@ Swift µframework - `AnyError(cause:ErrorType)` - providing type erasure for Err
   s.source           = { :git => 'https://github.com/nickager/AnyError.git', :tag => s.version.to_s }
   s.social_media_url   = "http://twitter.com/NickAger"
 
-  s.platform     = :ios, "9.0"
+  s.ios.deployment_target = '9.0'
+  s.osx.deployment_target = '10.11'
 
   s.source_files = 'AnyError/Classes/**/*'
 end
