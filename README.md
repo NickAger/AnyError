@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/AnyError.svg?style=flat)](http://cocoapods.org/pods/AnyError)
 [![Swift][swift-badge]][swift-url]
 
-Note: You might prefer to use [Result\AnyError](https://github.com/antitypical/Result/blob/master/Result/AnyError.swift) (when this version of `AnyError` was created [Result\AnyError](https://github.com/antitypical/Result/blob/master/Result/AnyError.swift) didn't exist), especially as many projects using `AnyError` will have already added in `Result` as a dependancy.
+Note: You might prefer to use [Result\AnyError](https://github.com/antitypical/Result/blob/master/Result/AnyError.swift), especially as many projects using `AnyError` will have already added in `Result` as a dependancy. When this version of `AnyError` was created [Result\AnyError](https://github.com/antitypical/Result/blob/master/Result/AnyError.swift) didn't exist and if it had, there would be no reason for creating this version.
 
 Swift µframework - `AnyError(cause:ErrorType)` - providing type erasure for ErrorType(s).
 
